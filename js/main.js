@@ -1,3 +1,9 @@
+window.onload = function () {
+    setTimeout (function () {
+        scrollTo(0,0);
+    }, 100);
+}
+
 const searchEl = document.querySelector('.search');
 const searchInputEl = searchEl.querySelector('input');
 
